@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_service/health_appointment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_service/health_core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_service/health_member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_service/health_order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_service/health_report" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_service/health_system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_web/health_h5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/health_web/health_pc" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

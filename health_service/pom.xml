@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>health_parent</artifactId>
+        <groupId>top.luchchuan.health</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>health_service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>health_appointment</module>
+        <module>health_core</module>
+        <module>health_order</module>
+        <module>health_report</module>
+        <module>health_member</module>
+        <module>health_system</module>
+    </modules>
+
+    <properties>
+        <tx-lcn-version>5.0.2.RELEASE</tx-lcn-version>
+        <xxl-job-version>2.0.1</xxl-job-version>
+    </properties>
+
+
+</project>
