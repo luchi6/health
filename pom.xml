@@ -23,12 +23,18 @@
 
     <properties>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-        <mybatisplus.version>3.3.2</mybatisplus.version>
-        <fastjson.version>1.2.72</fastjson.version>
         <health.api.version>1.0-SNAPSHOT</health.api.version>
         <health.commons.version>1.0-SNAPSHOT</health.commons.version>
         <health.core.version>1.0-SNAPSHOT</health.core.version>
+        <mybatisplus.version>3.3.2</mybatisplus.version>
+        <fastjson.version>1.2.72</fastjson.version>
+        <jackson.version>2.9.0</jackson.version>
         <springboot-dubbo-version>2.7.5</springboot-dubbo-version>
+        <easypoi.version>3.0.3</easypoi.version>
+        <aliyun.sdk.version>4.5.0</aliyun.sdk.version>
+        <aliyun.oos.version>3.10.2</aliyun.oos.version>
+        <jjwt.version>0.9.0</jjwt.version>
+        <joda.version>2.9.9</joda.version>
     </properties>
     <!--项目模块-->
     <dependencyManagement>
