@@ -4,13 +4,13 @@ server:
 spring:
   application:
     name: appo-application #应用名称
-xxl:
-  job:
-    enabled: false    # xxl-job开关
-    executor:
-      appname: health-executor
-      port: -1
-      logpath: ${user.home}/xxl-job/logs   #  chmod  777
-      logretentiondays: -1
-    admin:
-      addresses: http://localhost:8091/xxl-job-admin
+#xxl:
+#  job:
+#    enabled: false    # xxl-job开关
+#    executor:
+#      appname: health-executor
+#      port: -1
+#      logpath: ${user.home}/xxl-job/logs   #  chmod  777
+#      logretentiondays: -1
+#    admin:
+#      addresses: http://localhost:8091/xxl-job-admin
