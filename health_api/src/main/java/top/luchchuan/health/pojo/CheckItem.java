@@ -2,7 +2,9 @@ package top.luchchuan.health.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -12,7 +14,7 @@ import java.io.Serializable;
  */
 @TableName(value = "t_checkitem")
 @Data
-//@JsonInclude(JsonInclude.Include.NON_NULL)  //  序列化 字段为null 过滤
+@JsonInclude(JsonInclude.Include.NON_NULL)  //  序列化 字段为null 过滤
 public class CheckItem implements Serializable {
     @TableId(value = "id",type = IdType.AUTO)
     private Integer id;//主键
@@ -24,6 +26,7 @@ public class CheckItem implements Serializable {
     private String type;//检查项类型，分为检查和检验两种类型
     private String remark;//项目说明
     private String attention;//注意事项
+    @TableLogic
     private Integer is_delete;// 是否删除  1 表示删除  0 表示未删除  添加默认未删除
 
 
